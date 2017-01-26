@@ -1,0 +1,24 @@
+{
+    "name": "wizaplace/php-coding-standard",
+    "description": "Pragmatic Symfony CodeSniffer Coding Standards.",
+    "keywords": ["phpcs", "CodeSniffer", "Symfony2", "Standard", "Wizaplace"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wizaplace Tech Team",
+            "email": "dev@wizacha.com",
+            "homepage": "http://tech.wizaplace.com"
+        }
+    ],
+    "support" : {
+        "source": "https://github.com/wizaplace/php-coding-standard",
+        "issues": "https://github.com/wizaplace/php-coding-standard/issues"
+    },
+    "require": {
+        "escapestudios/symfony2-coding-standard":" ~2.0",
+        "squizlabs/php_codesniffer": "~2.0"
+    },
+    "suggest": {
+        "m6web/coke": "PHP CodeSniffer configurator"
+    }
+}

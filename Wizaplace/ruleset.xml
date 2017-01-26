@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<ruleset name="Wizaplace">
+    <description>Wizaplace coding standard for PHP projects.</description>
+    <rule ref="../../../escapestudios/symfony2-coding-standard/Symfony2">
+        <exclude name="Symfony2.Commenting" />
+        <exclude name="Symfony2.NamingConventions.ValidClassName" />
+    </rule>
+</ruleset>
