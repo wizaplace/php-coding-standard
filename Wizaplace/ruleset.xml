@@ -4,5 +4,6 @@
     <rule ref="../../../escapestudios/symfony2-coding-standard/Symfony2">
         <exclude name="Symfony2.Commenting" />
         <exclude name="Symfony2.NamingConventions.ValidClassName" />
+        <exclude name="PEAR.Functions.ValidDefaultValue.NotAtEnd" />
     </rule>
 </ruleset>
