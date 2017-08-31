@@ -5,13 +5,22 @@ Wizaplace's pragmatic PHP standard based on the [Symfony coding standards](http:
 Install dependencies :
 
 ```
-$ composer require --dev wizaplace/php-coding-standard:~1.0
+$ composer require --dev wizaplace/php-coding-standard
 ```
 
 To use it with [Coke](https://github.com/M6Web/Coke), just add this line to your `.coke` :
 
 ```
 standard=vendor/wizaplace/php-coding-standard/Wizaplace
+```
+
+If you are using PHP CodeSniffer, you can set it up with a `phpcs.xml` file:
+
+```xml
+<?xml version="1.0"?>
+<ruleset>
+    <rule ref="vendor/wizaplace/php-coding-standard/Wizaplace/ruleset.xml"/>
+</ruleset>
 ```
 
 ## Credits
