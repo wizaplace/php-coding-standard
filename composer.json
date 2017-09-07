@@ -15,8 +15,8 @@
         "issues": "https://github.com/wizaplace/php-coding-standard/issues"
     },
     "require": {
-        "escapestudios/symfony2-coding-standard":" ~2.0",
-        "squizlabs/php_codesniffer": "~2.0|~3.0"
+        "escapestudios/symfony2-coding-standard":" ~3.0",
+        "squizlabs/php_codesniffer": "~3.0"
     },
     "suggest": {
         "m6web/coke": "PHP CodeSniffer configurator"
