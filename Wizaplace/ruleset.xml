@@ -5,5 +5,7 @@
         <exclude name="Symfony.Commenting" />
         <exclude name="Symfony.NamingConventions.ValidClassName" />
         <exclude name="PEAR.Functions.ValidDefaultValue.NotAtEnd" />
+        <exclude name="Symfony.Functions.Arguments" />
+        <exclude name="Symfony.Errors.ExceptionMessage" />
     </rule>
 </ruleset>
