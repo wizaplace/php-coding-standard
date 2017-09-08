@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <ruleset name="Wizaplace">
     <description>Wizaplace coding standard for PHP projects.</description>
-    <rule ref="../../../escapestudios/symfony2-coding-standard/Symfony2">
-        <exclude name="Symfony2.Commenting" />
-        <exclude name="Symfony2.NamingConventions.ValidClassName" />
+    <rule ref="../../../escapestudios/symfony2-coding-standard/Symfony">
+        <exclude name="Symfony.Commenting" />
+        <exclude name="Symfony.NamingConventions.ValidClassName" />
         <exclude name="PEAR.Functions.ValidDefaultValue.NotAtEnd" />
     </rule>
 </ruleset>
