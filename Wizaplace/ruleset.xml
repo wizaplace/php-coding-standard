@@ -7,5 +7,6 @@
         <exclude name="PEAR.Functions.ValidDefaultValue.NotAtEnd" />
         <exclude name="Symfony.Functions.Arguments" />
         <exclude name="Symfony.Errors.ExceptionMessage" />
+        <exclude name="Symfony.ControlStructure.UnaryOperators" />
     </rule>
 </ruleset>
