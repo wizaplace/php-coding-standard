@@ -8,5 +8,6 @@
         <exclude name="Symfony.Functions.Arguments" />
         <exclude name="Symfony.Errors.ExceptionMessage" />
         <exclude name="Symfony.ControlStructure.UnaryOperators" />
+        <exclude name="Symfony.ControlStructure.YodaConditions" />
     </rule>
 </ruleset>
