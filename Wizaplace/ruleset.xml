@@ -10,13 +10,9 @@
         <exclude name="Symfony.ControlStructure.UnaryOperators" />
         <exclude name="Symfony.ControlStructure.YodaConditions" />
     </rule>
-    <rule ref="PEAR.Commenting.FileComment">
-        <exclude name="PEAR.Commenting.FileComment.MissingCategoryTag"/>
-        <exclude name="PEAR.Commenting.FileComment.MissingPackageTag"/>
-        <exclude name="PEAR.Commenting.FileComment.MissingLinkTag"/>
-        <exclude name="PEAR.Commenting.FileComment.MissingVersion"/>
-        <exclude name="PEAR.Commenting.FileComment.MissingAuthorTag"/>
-        <exclude name="PEAR.Commenting.FileComment.IncompleteCopyright"/>
-        <exclude name="PEAR.Commenting.FileComment.IncompleteLicense"/>
-    </rule>
+    <rule ref="PEAR.Commenting.FileComment.Missing"/>
+    <rule ref="PEAR.Commenting.FileComment.MissingLicenseTag"/>
+    <rule ref="PEAR.Commenting.FileComment.MissingCopyrightTag"/>
+    <rule ref="PEAR.Commenting.FileComment.EmptyCopyrightTag"/>
+    <rule ref="PEAR.Commenting.FileComment.EmptyLicenseTag"/>
 </ruleset>
