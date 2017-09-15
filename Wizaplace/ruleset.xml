@@ -10,4 +10,9 @@
         <exclude name="Symfony.ControlStructure.UnaryOperators" />
         <exclude name="Symfony.ControlStructure.YodaConditions" />
     </rule>
+    <rule ref="PEAR.Commenting.FileComment.Missing"/>
+    <rule ref="PEAR.Commenting.FileComment.MissingLicenseTag"/>
+    <rule ref="PEAR.Commenting.FileComment.MissingCopyrightTag"/>
+    <rule ref="PEAR.Commenting.FileComment.EmptyCopyrightTag"/>
+    <rule ref="PEAR.Commenting.FileComment.EmptyLicenseTag"/>
 </ruleset>
