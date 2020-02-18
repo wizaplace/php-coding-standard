@@ -1,3 +1,5 @@
+**DEPRECATED**: use instead [wizaplace/phpcs](https://github.com/wizaplace/phpcs)
+
 Wizaplace's pragmatic PHP standard based on the [Symfony coding standards](http://symfony.com/doc/current/contributing/code/standards.html).
 
 ## Installation
